@@ -1,0 +1,67 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #f1f1f1;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1390px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.sparepart-sec{
+    background: no-repeat center/cover url(../assest/img/image\ \(21\).png);
+    min-height: 450px;
+    background-color: #00000066;
+    background-blend-mode: multiply;
+}
+.sparepart-bg-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    font-size:65px ;
+    font-weight:700 ;
+    color: #FFFFFF;
+
+}
+
+.products-sec{
+    margin-top: 70px;
+}
+
+.products-sec-title{
+    text-align: center;
+    margin: auto;
+
+}
+.products-sec-title>span{
+    color: #FF3434;
+    font-size: 20px;
+    font-weight: 600;
+}
+.products-sec-title>h3{
+    font-size: 40px;
+    color: #343434;
+    font-weight: 600;
+    margin-top: 10px;
+}

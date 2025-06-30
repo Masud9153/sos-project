@@ -1,0 +1,152 @@
+ 
+ @media screen and ( max-width : 1200px ) {
+  
+  .input-row {
+    
+    gap: 15px;
+    
+  }
+  .banner-left-heading>p {
+    font-size: 16px;
+    
+ }
+ .banner-left-heading>h2 {
+    font-size: 65px;
+    
+ }
+
+
+}
+
+
+@media screen and ( max-width : 992px ) {
+  .banner-sec>div>div{
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .col-60{
+    width: 100%;
+  }
+  .col-40{
+    width: 70%;
+  }
+  .form-container {
+    
+    margin-top: 20px;
+ }
+ .banner-left-content {
+    margin-top: 40px;
+    text-align: center;
+ }
+  .top-nav-main {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+   }
+}
+ 
+ 
+ /* @media screen and ( max-width : 840px ) {
+    .top-nav-main {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+   }
+ } */
+
+ @media screen and ( max-width : 576px ) {
+    .top-nav-left {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .col-40{
+    width: 100%;
+  }
+  .banner-left-heading>h2 {
+        font-size: 48px;
+    }
+    .banner-left-heading>p {
+        font-size: 13px;
+        margin-top: 25px;
+    }
+    .banner-left-heading>a {
+  
+    padding: 12px 20px;
+    margin-top: 25px;
+   
+  }
+  input, select {
+    
+    height: 40px;
+    margin-top: 18px;
+    
+  }
+      .banner-left-content {
+        margin-top: 25px;
+        
+    }
+
+    .form-container {
+   
+    padding: 20px;
+    
+  }
+ }
+
+ /* @media screen and ( max-width : 426px ) {
+   .banner-left-heading>h2 {
+        font-size: 48px;
+    }
+    .banner-left-heading>p {
+        font-size: 13px;
+        margin-top: 25px;
+    }
+    .banner-left-heading>a {
+  
+    padding: 12px 20px;
+    margin-top: 25px;
+   
+  }
+  input, select {
+    
+    height: 40px;
+    margin-top: 18px;
+    
+  }
+      .banner-left-content {
+        margin-top: 25px;
+        
+    }
+
+    .form-container {
+   
+    padding: 20px;
+    
+  }
+ } */
+
+ /* @media screen and ( max-width : 376px ) {
+   .banner-left-heading>p {
+        font-size: 11px;
+    }
+    .banner-left-heading>h2 {
+        font-size: 43px;
+    }
+ } */
+
+ /* @media screen and ( max-width : 350px ) {
+  .banner-left-heading>h2 {
+        font-size: 36px;
+    }
+    .banner-left-heading>p {
+        font-size: 10px;
+    }
+ } */
