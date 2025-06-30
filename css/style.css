@@ -946,12 +946,13 @@ margin-top: 10px;
     box-shadow: 0px 4px 10px #0000001A ;
 }
 .packages-card1>h5{
-    width:181px ;
-    height: 84px ;
+    max-width:181px ;
+    min-height: 84px ;
     margin: auto;
     font-size: 36px;
     text-align: center;
     line-height: 40px;
+    width: 100%;
 }
 .packages-card1>h5>span{
     font-size: 25px;
@@ -969,11 +970,12 @@ margin-top: 10px;
 
 .packages-price>h5{
   font-size:35px ;
-  width:173px ;
-  height:40px ;
+  max-width:173px ;
+  min-height:40px ;
   margin: 25px auto 0 auto;
   color: #252525;
   /* font-weight: 500; */
+  width: 100%;
 }
 .packages-price>h5>span{
     font-size: 20px;
@@ -1021,8 +1023,8 @@ margin-top: 10px;
     font-size: 18px;
 }
 .packages-card1a>h5{
-    width:250px ;
-    height: 84px ;
+    max-width:250px ;
+    min-height: 84px ;
     margin: auto;
     font-size: 36px;
     text-align: center;
