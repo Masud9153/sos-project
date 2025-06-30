@@ -2095,7 +2095,7 @@ margin-top: 10px;
   background: #252525;
   /* backdrop-filter: blur(10px); */
   position: relative;
-  z-index: 1000;
+  /* z-index: 1000; */
 }
 
 .hdr-bttm-wrpr-inr {
