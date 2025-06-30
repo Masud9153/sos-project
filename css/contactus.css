@@ -87,7 +87,7 @@ body{
       position: absolute;
       background-color: #222;
       min-width: 160px;
-      z-index: 1;
+      z-index: 9999;
       margin-top: 5px;
       border: 1px solid white;
     }
@@ -214,7 +214,7 @@ body{
   background: #252525;
   /* backdrop-filter: blur(10px); */
   position: relative;
-  /* z-index: 1000; */
+  z-index: 1000;
 }
 
 .hdr-bttm-wrpr-inr {
