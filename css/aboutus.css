@@ -192,7 +192,7 @@ li{
     color: #F13636;
 }
 
-.nav-btn>a:nth-child(3)::after {
+/* .nav-btn>a:nth-child(3)::after {
     content: "";
     background: #a8cf09;
     position: absolute;
@@ -203,13 +203,13 @@ li{
     bottom: 0;
     transform: skewX(-45deg) scale(0, 1);
     transition: all 0.5s;
-}
+} */
 
-.nav-btn>a:nth-child(3):hover::after { 
+/* .nav-btn>a:nth-child(3):hover::after { 
     transform: skewX(-45deg) scale(1, 1);
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
-}
+} */
 
 .hdr-bttm-wrpr {
   padding: 20px 0;
@@ -1499,6 +1499,7 @@ li{
  .footer-bottom-links {
    
     gap: 11px;
+    justify-content: center;
  }
  .footer{
   margin-top: 40px;

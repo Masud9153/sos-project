@@ -67,14 +67,31 @@
     flex-direction: column;
     gap: 8px;
   }
+  
+  .top-nav-left>a{
+    font-size: 12px;
+  }
+  .top-nav-left>a>img{
+    width: 15px;
+  }
+  .location-label>img{
+    width: 15px;
+  }
+  .location-text{
+    font-size: 12px;
+  }
+  .location-select span{
+    font-size: 12px;
+  }
+
   .col-40{
     width: 100%;
   }
   .banner-left-heading>h2 {
-        font-size: 48px;
+        font-size: 36px;
     }
     .banner-left-heading>p {
-        font-size: 13px;
+        font-size: 9px;
         margin-top: 25px;
     }
     .banner-left-heading>a {

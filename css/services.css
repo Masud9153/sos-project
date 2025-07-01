@@ -197,7 +197,7 @@ ul {
     color: #F13636;
 }
 
-.nav-btn>a:nth-child(3)::after {
+/* .nav-btn>a:nth-child(3)::after {
     content: "";
     background: #a8cf09;
     position: absolute;
@@ -208,13 +208,14 @@ ul {
     bottom: 0;
     transform: skewX(-45deg) scale(0, 1);
     transition: all 0.5s;
-}
+} */
 
-.nav-btn>a:nth-child(3):hover::after { 
+
+/* .nav-btn>a:nth-child(3):hover::after { 
     transform: skewX(-45deg) scale(1, 1);
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
-}
+} */
 
 .hdr-bttm-wrpr {
   padding: 20px 0;
@@ -1300,6 +1301,17 @@ a{
     align-items: center;
 }
 
+@media screen and ( max-width : 576px ) {
+  .automobile-sec-top-part>h3>span{
+    font-size: 28px;
+  }
+  .automobile-sec-top-part>h3 {
+    font-size: 28px;
+  }
+  .automobile-sec {
+    margin-top: 20px;
+ }
+}
 
 /* footer section  */
 
@@ -1581,6 +1593,7 @@ a{
  .footer-bottom-links {
    
     gap: 11px;
+    justify-content: center;
  }
  .footer{
   margin-top: 40px;
