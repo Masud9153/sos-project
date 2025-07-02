@@ -1,3 +1,18 @@
+@font-face {
+  font-family: claritycity-bold;
+  src: url("../assest/font/ClarityCity-Bold.otf");
+}
+@font-face {
+  font-family: claritycity-black ;
+  src: url("../assest/font/ClarityCity-Medium.otf");
+}
+
+@font-face {
+  font-family: claritycity-light;
+  src: url("../assest/font/ClarityCity-Light.otf");
+}
+
+
 *{
     padding: 0;
     margin: 0;
@@ -13,6 +28,7 @@
 
 body{
     background-color: #f1f1f1;
+     font-family: claritycity-light;
 }
 
 .row{

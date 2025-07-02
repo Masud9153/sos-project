@@ -213,6 +213,9 @@ ul {
 .nav-links.active {
     color: #F13636;
 }
+.nav-btn>a:nth-child(3):hover{
+  background-color: #4b2004;
+}
 /* .nav-btn>a:nth-child(3)::after {
     content: "";
     background: #a8cf09;
@@ -281,6 +284,7 @@ ul {
 }
 .banner-left-heading>a:hover{
     background-color: #4b2004;
+    transform: scale(1.1);
 }
 
 
@@ -357,6 +361,7 @@ button {
 
 button:hover {
   background-color: #4b2004;
+  transform: scale(1.1);
 }
 
 
@@ -409,7 +414,8 @@ button:hover {
 }
 
 .servics-banner-card:hover{
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
+  transform: translateY(-10px);
 }
 
 
@@ -480,6 +486,7 @@ a{
 
 .servics-btn-primary:hover{
   background-color: #4b2004;
+  transform: scale(1.1);
 }
 
 .servics-btn-secondary {
@@ -496,6 +503,7 @@ a{
 .servics-btn-secondary:hover{
   background-color: #4b2004;
   color: white;
+  transform: scale(1.1);
 }
 
 @media screen and ( max-width : 1200px ) {
@@ -536,7 +544,7 @@ a{
     }
     .col-4{
         width: 100%;
-        padding: 5px 15px;
+        padding: 10px 15px;
     }
      .services-text{
     font-size: 15px;
@@ -689,6 +697,7 @@ a{
 }
 .schedule-btn>a:hover{
   background-color: #4b2004;
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 1200px){
@@ -810,7 +819,8 @@ padding: 20px;
 }
 
 .banner4-card-section:hover{
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
+  transform: translateY(-10px);
 }
 
 
@@ -878,6 +888,7 @@ margin-top: 10px;
 
 .banner4-btn:hover{
   background-color: #4b2004;
+  transform: scale(1.1);
 }
 
 .banner4-btn>a{
@@ -896,6 +907,7 @@ margin-top: 10px;
 }
 .banner4-btn1:hover{
   background-color:#4b2004 ;
+  transform: scale(1.1);
   /* color: white; */
 }
 
@@ -921,6 +933,7 @@ margin-top: 10px;
 }
 .checkout-btn:hover{
   background-color: #4b2004;
+  transform: scale(1.1);
 }
 
 @media screen and ( max-width: 1200px ){
@@ -956,7 +969,7 @@ margin-top: 10px;
 @media screen and ( max-width : 576px ) {
     .col-3{
         width: 100%;
-        padding: 5px 15px;
+        padding: 10px 15px;
     }
     /* .banner4-card {
        
@@ -1025,7 +1038,8 @@ margin-top: 10px;
 }
 
 .packages-card1:hover{
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
+  transform: translateY(-10px);
 }
 
 
@@ -1038,7 +1052,7 @@ margin-top: 10px;
 }
 
 .packages-card1a:hover{
-  transform: scale(1.1);
+  transform: translateY(-10px);
 }
 
 .packages-card1>h5{
@@ -1147,6 +1161,7 @@ margin-top: 10px;
 
 .packages-btn:hover{
   background-color: #4b2004;
+  transform: scale(1.1);
 }
 
 .packages-btn>a{
@@ -1178,7 +1193,7 @@ margin-top: 10px;
     }
     .col-4{
         width: 100%;
-        padding: 5px 15px;
+        padding: 10px 15px !important;
     }
     .packages-price>h5 {
     
@@ -2016,6 +2031,7 @@ margin-top: 10px;
 
 .Newsletter-btn:hover{
   background-color: #4b2004;
+  transform: scale(1.1);
 }
 
 .Newsletter-btn>a{
@@ -2168,6 +2184,7 @@ margin-top: 10px;
 
 .footer-side1-btn:hover{
   background-color: #4b2004;
+  transform: scale(1.1);
 }
 
 .footer-side1-btn>a{
