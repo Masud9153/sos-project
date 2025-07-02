@@ -808,6 +808,7 @@ li{
 .Achievements-top-part>h3{
     font-size: 40px;
     color: #343434;
+    margin-top: 10px;
 }
 .col-12{
     width: 100%;
@@ -983,6 +984,9 @@ li{
     
        flex-wrap: wrap;
         flex-direction: column;
+      }
+      .Achievements-top-part>h3{
+        font-size: 31px;
       }
  }
 
@@ -1492,19 +1496,23 @@ li{
 @media screen and ( max-width : 576px ) {
     .col-41{
     width: 100%;
+    padding: 0px;
      
  }
 .col-15{
     width: 50%;
+    padding: 0px;
      
  }
 .col-25{
     width: 50%;
+    padding: 0px;
      
     
  }
 .col-20{
     width: 50%;
+    padding: 0px;
     
  }
  .footer-bottom {
