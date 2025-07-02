@@ -2183,6 +2183,11 @@ a{
   text-align: center;
   margin-top: 21px;
 }
+.footer-side1-btn:hover{
+  background-color: #4b2004;
+  /* transform: scale(1.1); */
+  transform: translateY(-10px);
+}
 .footer-side1-btn>a{
     color: #FFFFFF;
 }
@@ -2204,6 +2209,10 @@ a{
    
      color: #FFFFFF;
 }
+.footer2divlink1>a:hover{
+  color: #F13636;
+  transform: scale(1.1);
+}
 .footer2divlink2{
     margin-top: 20px;
     
@@ -2211,6 +2220,10 @@ a{
 .footer2divlink2>a{
     
      color: #FFFFFF;
+}
+.footer2divlink2>a:hover{
+  color: #F13636;
+  transform: scale(1.1);
 }
 .footer2divlink3{
     margin-top: 20px;
@@ -2220,6 +2233,10 @@ a{
     
      color: #FFFFFF;
 }
+.footer2divlink3>a:hover{
+  color: #F13636;
+  transform: scale(1.1);
+}
 .footer2divlink4{
     margin-top: 20px;
    
@@ -2227,6 +2244,10 @@ a{
 .footer2divlink4>a{
    
      color: #FFFFFF;
+}
+.footer2divlink4>a:hover{
+  color: #F13636;
+  transform: scale(1.1);
 }
 .footer3div{
    margin-top: 55px; 
@@ -2253,6 +2274,10 @@ a{
 .footer4div-logo-content1>a{
     color: #FFFFFF;
 }
+.footer4div-logo-content1>a:hover{
+   color: #F13636;
+  transform: scale(1.1);
+}
 .footer4div{
     margin-top: 55px;
 }
@@ -2271,6 +2296,10 @@ a{
 .footer4div-logo-content2>a{
     color: #FFFFFF;
 }
+.footer4div-logo-content2>a:hover {
+      color: #F13636;
+      transform: scale(1.1);
+  }
 .footer4div-logo-content3{
     display: flex;
     align-items: center;
@@ -2279,6 +2308,10 @@ a{
 }
 .footer4div-logo-content3>a{
     color: #FFFFFF;
+}
+.footer4div-logo-content3>a:hover{
+    color: #F13636;
+    transform: scale(1.1);
 }
 
 .footer-line{
