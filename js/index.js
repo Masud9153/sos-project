@@ -724,3 +724,8 @@ document.addEventListener('DOMContentLoaded', function() {
         automotiveHeader.classList.add('active');
     }
 });
+
+
+
+
+

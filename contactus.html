@@ -35,26 +35,39 @@
                 Number: +91-7686860145</a
               >
             </div>
-            <div class="location-dropdown">
+             
+            <div class="location-dropdown" id="locationDropdown">
               <div class="location-label">
-                <!-- <i class="fas fa-crosshairs"></i> -->
+                
                 <img
                   src="./assest/img/fluent_my-location-16-regular.png"
                   alt="no"
                 />
                 <span class="location-text">Location:</span>
                 <div class="location-select">
-                  <span>Los Angeles</span>
+                  <span id="selectedLocation">Los Angeles</span>
                   <i class="fas fa-caret-down"></i>
                 </div>
               </div>
-              <div class="dropdown-content">
-                <div>New York</div>
-                <div>Chicago</div>
-                <div>San Francisco</div>
-                <div>Los Angeles</div>
+              <div class="dropdown-content" id="dropdownContent">
+                <div data-location="New York">New York</div>
+                <div data-location="Chicago">Chicago</div>
+                <div data-location="San Francisco">San Francisco</div>
+                <div data-location="Los Angeles" class="selected">Los Angeles</div>
               </div>
             </div>
+
+
+
+
+
+
+
+
+
+
+
+           
           </div>
         </div>
       </div>
@@ -326,6 +339,8 @@
         </div>
     </section>
 
+
+ <script src="./js/locationoption.js"></script>
  <script src="./js/index.js"></script>
 
 </body>
