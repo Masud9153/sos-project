@@ -383,6 +383,7 @@ input, select {
     background-color: transparent;
     border-radius: 5px;
     margin-top: 25px;
+    color: white;
 }
 
 input::placeholder,select {
@@ -1737,7 +1738,7 @@ margin-top: 10px;
         }
 
         .label {
-            font-size: 25px;
+            font-size: 21px;
             font-weight: 600;
             color: #252525;
             line-height: 1;
@@ -1873,7 +1874,7 @@ margin-top: 10px;
   height: auto;
   position: relative;
   margin-top: 40px;
-  border: 4px solid #F1F1F1;
+  border: 1px solid #0000001A;
 }
 
 .swiper-slide:hover {
@@ -2601,9 +2602,10 @@ margin-top: 10px;
   left: 0;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right,
+  /* background: linear-gradient(to right,
       green,
-      red);
+      red); */
+     background: #40E193;
   transition: width 0.3s ease;
 }
 
@@ -2612,9 +2614,10 @@ margin-top: 10px;
 }
 
 .nav-collapse ul li a:hover {
-  background: linear-gradient(to left,
+  /* background: linear-gradient(to left,
       red,
-      green);
+      green); */
+  background: #40E193;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -2812,8 +2815,8 @@ margin-top: 10px;
 }
 
 .sidebar-nav a:hover {
-  color: white;
-  transform: translateX(10px);
+  background:#40E193;
+  
 } */
 
 .sidebar-actions {

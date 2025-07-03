@@ -333,9 +333,10 @@ a{
   /* background: linear-gradient(to right,
       var(--linear-color-one),
       var(--linear-color-two)); */
-       background: linear-gradient(to right,
+       /* background: linear-gradient(to right,
       green,
-      red);
+      red); */
+      background: #40E193;
   transition: width 0.3s ease;
 }
 
@@ -347,9 +348,11 @@ a{
   /* background: linear-gradient(to left,
       var(--linear-color-one),
       var(--linear-color-two)); */
-       background: linear-gradient(to left,
+       /* background: linear-gradient(to left,
       red,
-      green);
+      green); */
+      background: #40E193;
+      /* transform: translateY(-10px); */
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -1316,12 +1319,12 @@ a{
 }
 
 .filter-content {
-    max-height: 200px;
+    height: 140px;
     overflow: hidden;
     transition: max-height 0.3s ease;
     display: flex;
     flex-direction: column;
-    gap: 6px !important;
+    gap: 15px !important;
     /* align-items: center; */
 }
 
@@ -1331,7 +1334,7 @@ a{
 
 .filter-item {
     padding: 5px 0;
-    color: #666;
+    color:#252525;
     font-size: 14px;
     cursor: pointer;
     margin-left: 30px;
@@ -1370,11 +1373,24 @@ a{
     color: #666;
 }
 
+.content-fitting{
+  height: 200px !important;
+}
+.filter-para{
+  padding-top: 6px;
+  font-size: 14px;
+}
+
+.banner-extra{
+  margin-top: 6px;
+}
+
+
 /* Checkbox Styles */
 .checkbox-group {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     max-height: 200px;
     overflow-y: auto;
 }
@@ -1385,7 +1401,7 @@ a{
     cursor: pointer;
     font-size: 14px;
     position: relative;
-    padding-left: 25px;
+    padding-left: 30px;
 }
 
 .checkbox-item input[type="checkbox"] {
@@ -1398,11 +1414,11 @@ a{
     position: absolute;
     left: 0;
     top: 2px;
-    height: 16px;
-    width: 16px;
+    height: 24px;
+    width: 24px;
     background-color: #fff;
-    border: 2px solid #ddd;
-    border-radius: 3px;
+    border: 1px solid #4B4B4B;
+    /* border-radius: 3px; */
 }
 
 .checkbox-item:hover input ~ .checkmark {
@@ -1425,9 +1441,9 @@ a{
 }
 
 .checkbox-item .checkmark:after {
-    left: 4px;
-    top: 1px;
-    width: 4px;
+    left: 7px;
+    top: 5px;
+    width: 5px;
     height: 8px;
     border: solid white;
     border-width: 0 2px 2px 0;
@@ -1515,7 +1531,7 @@ a{
 .btn {
     padding: 10px 15px;
     border: none;
-    border-radius: 6px;
+    border-radius: 5px;
     font-size: 14px;
     font-weight: 500;
     cursor: pointer;

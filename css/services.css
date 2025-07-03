@@ -402,9 +402,10 @@ ul {
   /* background: linear-gradient(to right,
       var(--linear-color-one),
       var(--linear-color-two)); */
-       background: linear-gradient(to right,
+       /* background: linear-gradient(to right,
       green,
-      red);
+      red); */
+       background: #40E193;
   transition: width 0.3s ease;
 }
 
@@ -416,9 +417,10 @@ ul {
   /* background: linear-gradient(to left,
       var(--linear-color-one),
       var(--linear-color-two)); */
-       background: linear-gradient(to left,
+       /* background: linear-gradient(to left,
       red,
-      green);
+      green); */
+       background: #40E193;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -2074,6 +2076,7 @@ a{
 .automobile-sec-top-part>p{
     font-size: 16px;
     color:#00000099;
+    margin-top: 10px;
 }
 
 #automobile-services{
@@ -2096,10 +2099,13 @@ a{
     font-size: 28px;
   }
   .automobile-sec-top-part>h3 {
-    font-size: 28px;
+    font-size: 26px;
   }
   .automobile-sec {
     margin-top: 20px;
+ }
+ .automobile-sec-top-part>p{
+  font-size: 13px;
  }
 }
 
