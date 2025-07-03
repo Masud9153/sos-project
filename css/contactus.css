@@ -1052,9 +1052,9 @@ li {
 
 /* Media queries for different screen sizes */
 @media (max-width: 768px) {
-  body {
+  /* body {
     padding: 10px;
-  }
+  } */
 
   .embed-map-responsive {
     max-width: 100%;
